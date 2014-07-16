@@ -1,0 +1,21 @@
+﻿<Window x:Class="answer2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Background="Black">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button Content="RED" Click="ButtonClicked_1" Height="81" Width="165">
+                <Button.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="Yellow"/>
+                        <GradientStop Color="Red" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            
+            <Button Click="ButtonClicked_2"> GREEN </Button>
+            <Button Click="ButtonClicked_3"> BLUE </Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>
