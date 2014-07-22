@@ -1,13 +1,13 @@
-# 問題 6
+# 問題 8
 Grid を用いて以下のようなレイアウトを作成する。
 
-| ラベル | テキストボックス | ボタン |
-|:-------:|:---------------:|:------:|
-| Label1 | TextBox1 | Button1 |
-| Label2 | TextBox2 | Button2 |
-| Label3 | TextBox3 | Button3 |
+<table>
+	<tr><td>ToolBar (高さ固定)</td></tr>
+	<tr><td>Canvas (ウィンドウサイズにあわせて高さが広がる)</td></tr>
+	<tr><td align="right">Button1 Button2 (高さ固定)</td></tr>
+</table>
 
-※ ラベル1～3 は
+※ ボタン1、ボタン2は右寄せ
 - http://msdn.microsoft.com/ja-jp/library/system.windows.controls.grid.aspx
 - http://msdn.microsoft.com/ja-jp/library/system.windows.controls.label.aspx
 - http://msdn.microsoft.com/ja-jp/library/system.windows.controls.button.aspx
