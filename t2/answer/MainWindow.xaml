@@ -1,0 +1,15 @@
+﻿<Window x:Class="answer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox Text="Hello World!" Name="textbox1" TextWrapping="Wrap" Width="181" Height="100" 
+                     Foreground="Yellow" Background="Blue" PreviewMouseDown="textbox_MouseDown"/>
+            
+            <TextBox Text="HELLO WORLD!" Background="red" PreviewMouseUp="textbox_MouseUp"></TextBox>
+            <TextBox Text="hello" Background="yellow" Foreground="Magenta" PreviewMouseDoubleClick="textbox_MouseDoubleClick"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
