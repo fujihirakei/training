@@ -1,0 +1,11 @@
+﻿<Window x:Class="answer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox Name="textbox1" Text="10" Background="Silver" Foreground="blue" PreviewMouseUp="textbox_MouseUp"/>
+            <TextBox Name="textbox2" Text="20" Background="Silver" Foreground="blue" PreviewMouseUp="textbox_MouseUp"/>
+         </StackPanel>
+    </Grid>
+</Window>
