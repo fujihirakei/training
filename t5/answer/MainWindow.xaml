@@ -1,0 +1,20 @@
+﻿<Window x:Class="answer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <DockPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <TextBox Name="text1" Text="" Width="50"/>
+            <ComboBox Name="Operation">
+                <ComboBox.Items>
+                    <ComboBoxItem Name="a1" FontSize="20" Content="+" IsSelected="True"/>
+                    <ComboBoxItem Name="a2" FontSize="20" Content="-"/>
+                    <ComboBoxItem Name="a3" FontSize="20" Content="*"/>
+                    <ComboBoxItem Name="a4" FontSize="20" Content="/"/>
+                </ComboBox.Items>                                    
+            </ComboBox>
+            <TextBox Name="text2" Text="" Width="50"/>
+            <Button Click="ButtonClicked" Content="Calculation"/>
+        </DockPanel>
+    </Grid>
+</Window>
