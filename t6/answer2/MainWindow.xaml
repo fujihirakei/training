@@ -1,0 +1,18 @@
+﻿<Window x:Class="answer2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <UniformGrid HorizontalAlignment="Center" VerticalAlignment="Center" Columns="3" Rows="4">
+            <Label Content="Label1"/>
+            <TextBox Text="Text1"/>
+            <Button Content="Button1"/>
+            <Label Content="Label2"/>
+            <TextBox Text="Text2"/>
+            <Button Content="Button2"/>
+            <Label Content="Label3"/>
+            <TextBox Text="Text3"/>
+            <Button Content="Button3"/>
+        </UniformGrid>
+    </Grid>
+</Window>

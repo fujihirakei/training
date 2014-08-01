@@ -1,0 +1,27 @@
+﻿<Window x:Class="answer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel HorizontalAlignment="Left" Orientation="Vertical">
+                <Label Content="ラベル"/>
+                <Label Content="Label1"/>
+                <Label Content="Label2"/>
+                <Label Content="Label3"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Vertical">
+                <TextBox Text="テキストボックス"/>
+                <TextBox Text="TextBox1"/>
+                <TextBox Text="TextBox2"/>
+                <TextBox Text="TextBox3"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Vertical">
+                <Button Content="ボタン"/>
+                <Button Content="Button1"/>
+                <Button Content="Button2"/>
+                <Button Content="Button3"/>
+            </StackPanel>
+        </WrapPanel>
+    </Grid>
+</Window>
