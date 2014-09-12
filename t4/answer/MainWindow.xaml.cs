@@ -25,24 +25,16 @@ namespace answer
             InitializeComponent();
         }
 
-        public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            var combo = sender as ComboBox;
-            var sel = combo.SelectedItem as ComboBoxItem;
-            //if (sel.Content == null) { return; }
-            //if (sel == null) { return; }
-        }
-
         private void ButtonClicked(object sender, RoutedEventArgs e)
         {
             var combo = combo_name;
             var sel = combo.SelectedItem as ComboBoxItem;
-            if (sel.Content == a.Content) 
-            { 
-                MessageBox.Show("aaa"); 
-            }            
+            if (sel.Content == a.Content)
+            {
+                MessageBox.Show("aaa");
+            }
             else if (sel.Content == b.Content)
-            { 
+            {
                 MessageBox.Show("bbb"); 
             }           
             else if (sel == c) 

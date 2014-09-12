@@ -4,11 +4,13 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBox Text="Hello World!" Name="textbox1" TextWrapping="Wrap" Width="181" Height="100" 
-                     Foreground="Yellow" Background="Blue" PreviewMouseDown="textbox_MouseDown"/>
+            <!--<TextBox Name="tb1" Text="Hello World!" TextWrapping="Wrap" Width="181" Height="100" 
+                     Foreground="Yellow" Background="Blue" PreviewMouseDown="textbox_MouseDown"/>-->
+            <TextBox Name="tb1" Text="Hello World!" TextWrapping="Wrap" Width="181" Height="100" 
+                     Foreground="Yellow" Background="Blue" PreviewMouseDoubleClick="textbox_MouseDoubleClick"/>
             
-            <TextBox Text="HELLO WORLD!" Background="red" PreviewMouseUp="textbox_MouseUp"></TextBox>
-            <TextBox Text="hello" Background="yellow" Foreground="Magenta" PreviewMouseDoubleClick="textbox_MouseDoubleClick"/>
+            <TextBox Name="tb2" Text="HELLO WORLD!" Background="red" PreviewMouseUp="textbox_MouseUp"></TextBox>
+            <TextBox Name="tb3" Text="hello" Background="yellow" Foreground="Magenta" PreviewMouseDoubleClick="textbox_MouseDoubleClick"/>
         </StackPanel>
         
     </Grid>

@@ -24,18 +24,5 @@ namespace answer
         {
             InitializeComponent();
         }
-
-        void textbox_MouseUp(object sender, RoutedEventArgs e)
-        {
-            string message = tb2.Text;
-            System.Windows.MessageBox.Show(message);
-            e.Handled = true;
-        }
-        void textbox_MouseDoubleClick(object sender, RoutedEventArgs t)
-        {
-            string message = (sender as TextBox).Text;
-            MessageBox.Show(message);
-            t.Handled = true;
-        }
     }
 }
